@@ -53,7 +53,7 @@ function ProjectCard({ project }) {
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">'{project.role}'</span>
+            <span className="text-orange-400">&apos;{project.role}&apos;</span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">

@@ -29,7 +29,7 @@ function Skills() {
       <div className="w-full my-12">
         <Marquee
           gradient={false}
-          speed={0}
+          speed={80}
           pauseOnHover={true}
           pauseOnClick={true}
           delay={0}
