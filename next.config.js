@@ -3,6 +3,7 @@ const { PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD } = require("next/const
 
 module.exports = (phase, { defaultConfig }) => {
     let common = {
+        ...defaultConfig,
         images: {
             unoptimized: true,
             remotePatterns: [
