@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
         </main>
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+      <GoogleTagManager gtmId="G-D95Q4QV9TP" />
     </html>
   );
 }
