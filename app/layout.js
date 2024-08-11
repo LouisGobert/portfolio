@@ -1,4 +1,4 @@
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
         </main>
       </body>
-      <GoogleTagManager gtmId="G-D95Q4QV9TP" />
+      <GoogleAnalytics gaId="G-D95Q4QV9TP" />
     </html>
   );
 }
